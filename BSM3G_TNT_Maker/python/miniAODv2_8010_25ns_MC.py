@@ -38,7 +38,8 @@ process.maxEvents = cms.untracked.PSet( input = cms.untracked.int32(1000) )
 process.source = cms.Source("PoolSource",
   fileNames = cms.untracked.vstring(
     #'/store/mc/RunIISpring16MiniAODv2/W1JetsToLNu_TuneCUETP8M1_13TeV-madgraphMLM-pythia8/MINIAODSIM/PUSpring16_80X_mcRun2_asymptotic_2016_miniAODv2_v0-v1/00000/00A945CC-6236-E611-A06B-0002C94CD11E.root'
-    '/store/mc/RunIISpring16MiniAODv2/ZprimeToTauTau_M-1750_TuneCUETP8M1_13TeV-pythia8-tauola/MINIAODSIM/PUSpring16RAWAODSIM_reHLT_80X_mcRun2_asymptotic_v14-v1/00000/02AA02E0-1843-E611-B889-00266CFEFE08.root'
+    #'/store/mc/RunIISpring16MiniAODv2/ZprimeToTauTau_M-1750_TuneCUETP8M1_13TeV-pythia8-tauola/MINIAODSIM/PUSpring16RAWAODSIM_reHLT_80X_mcRun2_asymptotic_v14-v1/00000/02AA02E0-1843-E611-B889-00266CFEFE08.root'
+	'root://cmsxrootd.fnal.gov//store/mc/RunIISummer16MiniAODv2/Scalar_MonoTop_LO_Mphi-2700_Mchi-100_13TeV-madgraph/MINIAODSIM/PUMoriond17_80X_mcRun2_asymptotic_2016_TrancheIV_v6-v1/100000/62E4658F-B3CD-E611-B825-00259073E412.root'
   )
 )
 
